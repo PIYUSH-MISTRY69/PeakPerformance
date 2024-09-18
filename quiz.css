@@ -1,0 +1,212 @@
+body{
+    background-color: #052633;
+    padding: 0;
+    margin: 0;
+}
+
+#one{
+    height: 200px;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+}
+
+#two{
+    height: 200px;
+    width: 200px;
+    border: 10px solid green;
+    border-radius: 50%;
+    margin-left: 950px;
+    display: grid;
+    place-items: center;
+    color: white;
+    animation: animate 120s ease-in-out 1s 1 normal forwards;
+    top: 300px;
+    right: 120px;
+    position: fixed;
+}
+
+#three{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+}
+
+#four{
+    height: 50px;
+    width: 100px;
+    margin-bottom: 60px;
+    font-size: 2rem;
+    padding-left: 5px;
+    text-align: center;
+}
+
+#five{
+    height: 200px;
+    width: 90%;
+    margin-left: 50px;
+    position: relative;
+    font-size: 4rem;
+    display: grid;
+    place-items: center;
+    color: yellow;
+    border: 5px solid white;
+    border-radius: 7px;
+}
+
+@keyframes animate{
+    0%{
+        border: 10px solid green;
+    }
+    40%{
+        border: 10px solid yellow;
+    }
+    80%
+    {
+        border: 10px solid orange;
+    }
+    100%{
+        border: 10px solid red;
+    }
+}
+
+#main{
+    display: grid;
+    place-items: center;
+}
+
+.q{
+    height: 300px;
+    width: 1000px;
+    margin-top: 0px;
+    border-radius: 15px;
+}
+
+.disabled{
+    cursor: not-allowed;
+}
+
+.button1{
+    padding: 10px;
+    font-size: 2rem;
+    border-radius: 5px;
+    background-color: #052633;
+    color: white;
+    transition: all 0.3s ease 0s;
+    height: 100px;
+    width: 350px;
+    background-color: #2abf52;
+}
+
+.button2{
+    padding: 10px;
+    font-size: 2rem;
+    border-radius: 5px;
+    background-color: #052633;
+    color: white;
+    transition: all 0.3s ease 0s;
+    height: 100px;
+    width: 350px;
+    background-color: #b81212;
+}
+
+.button1:hover{
+    transform: scale(1.05);
+}
+
+.button2:hover{
+    transform: scale(1.05);
+}
+
+#seven{
+    height: 120px;
+    width: 700px;
+    background-color: yellow;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: grid;
+    place-items: center;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 80px;
+    text-align: center;
+    color: black;
+}
+
+#eight{
+    height: 100px;
+    width: 700px;
+    display: flex;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top: 5px solid black;
+    background-color: #052633;
+}
+
+#nine{
+    height: 100px;
+    width: 500px;
+    background-color: #052633;
+    display: grid;
+    place-items: center;
+    border-bottom-left-radius: 15px;
+    border-right: 5px solid black;
+}
+
+#ten{
+    height: 100px;
+    width: 500px;
+    background-color: #052633;
+    display: grid;
+    place-items: center;
+    border-bottom-right-radius: 15px;
+}
+
+#end{
+    height: 200px;
+    width: auto;
+    background-color: #052633;
+    display: grid;
+    place-items: center;
+}
+
+#endbut{
+    padding: 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: #096082;
+    color: yellow;
+    transition: all 0.5s ease-in 0s;
+}
+
+
+#endbut:hover{
+     transform: scale(1.2);
+}
+
+#res{
+    height: 400px;
+    width: 1000px;
+    background-color: #096082;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.unseen{
+    visibility: hidden;
+}
+.seen{
+    visibility: visible;
+}
+
+#endd{
+    height: 100px;
+    width: 1000px;
+}
+

@@ -1,0 +1,138 @@
+body{
+    color: beige;
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    cursor: pointer;
+}
+
+#one{
+    height: 300px;
+    width: 600px;
+    background-color: #373837;
+    border-radius: 15px;
+    border: 5px solid white;
+    transition: all 0.5s ease-in 0s;
+    border: 5px solid white;
+    z-index: 1;
+}
+
+#two{
+    height: 50px;
+    width:600px;
+    background-color: #373837;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+#three{
+    height:250px;
+    width:600px;
+    background-color: #373837;
+    display: flex;
+    overflow: hidden;
+    color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#four{
+    
+    height: 250px;
+    width: 300px;
+    background-color: #052633;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-delay: 0.5s;
+    transition-timing-function: ease-in-out;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+}
+
+#five{
+    
+    height: 250px;
+    width: 300px;
+    background-color: #096082;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-delay: 0.5s;
+    transition-timing-function: ease-in-out;
+    text-align: center;
+    border-bottom-right-radius: 15px;
+}
+
+#one:hover{
+    transform: scale(1.25);
+}
+
+#four:hover{
+    width: 600px;
+   cursor: pointer;
+}
+
+#five:hover{
+    width: 600px;
+    cursor: pointer;
+}
+
+#three:hover > :not(:hover){
+    width: 0px;
+    color: transparent;
+}
+
+input{
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-left: 80px;
+}
+
+.buttt{
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.buttt:disabled {
+    background-color: black;
+    color: white;
+    cursor: not-allowed;
+} 
+
+#myvideo{
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top:50%;
+    left: 50%;
+}
+
+img{
+    height: 30px;
+    width: 30px;
+    margin-top: 3px;
+    margin-left: 20px;
+    position: fixed;
+}
+
+p{
+    margin-left: 220px;
+}
+
+h4{
+    margin-top: 15px;
+}
+
+.passs
+{
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 7px;
+}
+
