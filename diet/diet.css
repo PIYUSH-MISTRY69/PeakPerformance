@@ -1,0 +1,299 @@
+.header{
+    height: 60px;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #096082;
+    z-index: 1;
+    box-shadow: 0 0 10px #000000;
+}
+
+.home-icon{
+    height: 35px;
+    
+}
+
+.logo-img{
+    height: 45px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgb(0, 0, 0,0.5);
+}
+
+.logo-text{
+    
+    margin: 0;
+    margin-left: 7px;
+    font-size: 28px;
+    color: white;
+    
+    font-weight: bolder;
+    
+    text-shadow: 0 0 10px rgb(0, 0, 0,0.5);
+    
+}
+
+
+.left-section{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.left-section{
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.middle-section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-section{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: end;
+}
+
+#nutri-img{
+    height: 40px;
+    margin-left: 10px;
+    padding-right: 20px;
+    cursor: pointer;
+    font-size: 28px;
+    margin-top: 11px;
+    
+    
+}
+
+.nutri-text{
+    
+    margin: 0;
+    margin-left: 7px;
+    
+    font-size: 30px;
+    color: white;
+    
+    font-weight: bolder;
+    
+    text-shadow: 0 0 10px rgb(0, 0, 0,0.5);
+    
+}
+
+
+.nutri-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    right: -100%;
+    height: 360px;
+    width: 250px;
+    background-color: #096082;
+    z-index: 1;
+    box-shadow: -2px 0 4px black;
+    transition: all 0.3s;
+}
+
+.nutri-box.active{
+    right: 0;
+}
+
+.nutri-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    transition: all 0.3s;
+    height: 60px;
+    width: 100%;
+    cursor: pointer;
+    border-top: 1px solid black;
+    position: relative;
+   
+}
+
+.nutri-btn:hover{
+    background-color: lightblue;
+    color: black;
+
+}
+
+.close-box{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}
+
+#close-btn{
+    font-size: 32px;
+    cursor: pointer;
+    margin-right: 25px;
+}
+
+.nutrient-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    color: white;
+    font-size: 65px;
+    font-family: Bebas Neue;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    margin-top: 40px;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    margin-top: 60px;
+    margin-bottom: 500px;
+}
+
+.r-con{
+    display: inline-block;
+    background-color: #096082;
+    height: 100%;
+    width: 550px;
+    margin: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 0 4px black;
+    padding: 20px;
+}
+
+.r-con2{
+    display: inline-block;
+    height: 446;
+    width: 1000px;
+}
+
+.r-con3{
+    display: inline-block;
+    background-color: #096082;
+    height: 100%;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0 4px black;
+    padding: 15px;
+    width: 100%;
+    padding-top: 0;
+}
+
+.subtitle{
+    font-size: 45px;
+    color: yellow;
+    text-decoration: underline;
+    font-family: kanit,sans-serif;
+    font-weight: 600;
+    margin-bottom: 7px;
+    margin-top: 40px;
+}
+
+.highlight{
+    font-size:30px;
+    color: lightyellow;
+}
+
+.cont{
+    margin-top: 7px;
+    color: white;
+    font-size: 20px;
+    font-family: kanit,sans-serif;
+
+}
+
+.t2{
+    color: rgb(255, 255, 95);
+    font-size: 24px;
+    font-family: kanit,sans-serif;
+}
+
+.table-div{
+    display: flex;
+    justify-content: center;
+}
+
+.table{
+    height: 350px;
+    
+}
+
+.link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+.option-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    
+    
+}
+
+
+.option{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #096082;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    height: 300px;
+    width: 400px;
+    border-radius: 70px;
+    box-shadow: 0px 0 15px black;
+    transition: all ease-out 0.3s;
+}
+
+.option:hover{
+    background-color: lightblue;
+    color: black;
+    transform: scale(1.03);
+    box-shadow: 0px 0 25px black;
+}
+
+.option:active{
+    opacity: 0.4;
+    transition: 0s;
+}
+
+body{
+    background-color:#052633 ;
+   
+}

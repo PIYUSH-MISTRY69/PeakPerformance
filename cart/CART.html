@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Peak Shop</title>
+    <script src="cartbox.js"></script>
+</head>
+<body>
+
+    
+
+    <div class="header" >
+        <div class="left-section">
+           <a href="https://www.youtube.com/" > <img  src="icons/home.png" class="home-icon"> </a>
+        </div>
+        <div class="middle-section">
+            <div>
+                <img class="logo-img" src="icons/logo3.png">
+            </div>
+            <div>
+                <p class="logo-text">
+                    𝙋𝙚𝙖𝙠𝙋𝙚𝙧𝙛𝙤𝙧𝙢𝙖𝙣𝙘𝙚
+                </p>
+            </div>
+        </div>
+        <div class="right-section">
+            <div>
+                <p class="cart-text">
+                    𝘾𝙖𝙧𝙩
+                </p>
+            </div>
+            <div >
+                
+                <i class="fa-solid fa-cart-shopping" style="color: #ffffff;" id="cart-img" data-quantity="0"></i>
+                
+                
+            </div>
+        </div>
+        
+    </div>
+
+<div>
+
+
+    <div class="cart-box">
+        <h2 class="cart-title">𝙔𝙤𝙪𝙧 𝘾𝙖𝙧𝙩</h2>
+        <div class="total">
+            <div class="total-title">𝙏𝙤𝙩𝙖𝙡</div>
+            <div class="total-price" style="font-size: 25px;">0₹</div>
+        </div>
+        <div class="cart_content">
+
+            
+        </div>
+
+        <div class="coupon-code-section">
+            <input type="text" id="coupon-code" name="coupon-code" placeholder="Enter coupon code">
+            <button id="apply-coupon" type="button">Apply</button>
+          </div>
+
+        <div style="display: flex;">
+            <button class="buy-btn">𝘽𝙐𝙔 𝙉𝙊𝙒</button>
+            <button id="close-btn">𝘾𝙇𝙊𝙎𝙀</button>
+        </div>
+    </div>
+
+
+        <div class="layout">
+            <div></div>
+            <div class="product-grid">
+                <div class="category">
+                    PROTEIN
+                </div>
+                <div class="product-row">
+                    <div class="product-preview">
+
+                        <div class="product-img-row" >
+                            <img class="product-img" src="product/prod1.jpg">
+                            <div class="stock">In stock</div>
+                        </div>
+                        <div class="product-name">Product 1</div>
+                        <div class="product-price">1000₹</div>                
+                        <button class="addcartbutton" >Add to cart</button>
+                    </div>
+
+                    <div class="product-preview">
+
+                        <div class="product-img-row" >
+                            <img class="product-img" src="product/prod2.jpg">
+                            <div class="stock">In stock</div>
+                        </div>
+                        <div class="product-name">Product 2</div>
+                        <div class="product-price">2000₹</div>
+                        <button class="addcartbutton">Add to cart</button>
+                    </div>
+
+                    <div class="product-preview">
+
+                        <div class="product-img-row" >
+                            <img class="product-img" src="product/prod3.jpg">
+                            <div class="stock">In stock</div>
+                        </div>
+                        <div class="product-name">Product 3</div>
+                        <div class="product-price">3000₹</div>
+                        <button class="addcartbutton">Add to cart</button>
+                                        
+                    </div>
+
+                    <div class="product-preview">
+
+                        <div class="product-img-row" >
+                            <img class="product-img" src="product/prod4.jpg">
+                            <div class="stock">In stock</div>
+                        </div>
+                        <div class="product-name">Product 4</div>
+                        <div class="product-price">4000₹ </div>                
+                        <button class="addcartbutton" >Add to cart</button>
+                    </div>
+                </div>
+                <div class="category">
+                    MULTI-VITAMINS
+                </div>
+                <div class="product-row">
+                    <div class="product-preview">
+
+                        <div class="product-img-row" >
+                            <img class="product-img" src="product/prod5.jpg">
+                            <div class="stock">In stock</div>
+                        </div>
+                        <div class="product-name">Product 5</div>
+                        <div class="product-price">5000₹</div>
+                        <button class="addcartbutton">Add to cart</button>
+                    </div>
+
+                    <div class="product-preview">
+
+                        <div class="product-img-row" >
+                            <img class="product-img" src="product/prod6.jpg">
+                            <div class="stock">In stock</div>
+                        </div>
+                        <div class="product-name">Product 6</div>
+                        <div class="product-price">6000₹</div>
+                        <button class="addcartbutton">Add to cart</button>
+                                        
+                    </div>      
+            
+                    <div class="product-preview">
+
+                        <div class="product-img-row" >
+                            <img class="product-img" src="product/prod7.jpg">
+                            <div class="stock">In stock</div>
+                        </div>
+                        <div class="product-name">Product 7</div>
+                        <div class="product-price">7000₹</div>                
+                        <button class="addcartbutton" >Add to cart</button>
+                    </div>
+
+                    <div class="product-preview">
+
+                        <div class="product-img-row" >
+                            <img class="product-img" src="product/prod8.jpg">
+                            <div class="stock">In stock</div>
+                        </div>
+                        <div class="product-name">Product 8</div>
+                        <div class="product-price">8000₹</div>
+                        <button class="addcartbutton">Add to cart</button>
+                    </div>
+                </div>
+                <div class="category">
+                    CREATINE
+                </div>
+                <div class="product-row">
+                    <div class="product-preview">
+
+                        <div class="product-img-row" >
+                            <img class="product-img" src="product/prod9.jpg">
+                            <div class="stock">In stock</div>
+                        </div>
+                        <div class="product-name">Product 9</div>
+                        <div class="product-price">9000₹</div>
+                        <button class="addcartbutton">Add to cart</button>
+                                        
+                    </div>
+
+                    <div class="product-preview">
+
+                        <div class="product-img-row" >
+                            <img class="product-img" src="product/prod10.jpg">
+                            <div class="stock">In stock</div>
+                        </div>
+                        <div class="product-name">Product 10</div>
+                        <div class="product-price">10000₹</div>
+                        <button class="addcartbutton">Add to cart</button>
+                                        
+                    </div>
+                    
+                    <div class="product-preview">
+
+                        <div class="product-img-row" >
+                            <img class="product-img" src="product/prod11.jpg">
+                            <div class="stock">In stock</div>
+                        </div>
+                        <div class="product-name">Product 11</div>
+                        <div class="product-price">11000₹</div>
+                        <button class="addcartbutton">Add to cart</button>
+                    </div>
+
+                    <div class="product-preview">
+
+                        <div class="product-img-row" >
+                            <img class="product-img" src="product/prod12.jpg">
+                            <div class="stock">In stock</div>
+                        </div>
+                        <div class="product-name">Product 12</div>
+                        <div class="product-price">12000₹</div>
+                        <button class="addcartbutton">Add to cart</button>
+                                        
+                    </div>
+                </div>
+                <div class="category">
+                    IDK
+                </div>
+                <div class="product-row">
+                    <div class="product-preview">
+
+                        <div class="product-img-row" >
+                            <img class="product-img" src="product/prod13.jpg">
+                            <div class="stock">In stock</div>
+                        </div>
+                        <div class="product-name">Product 13</div>
+                        <div class="product-price">13000₹</div>
+                        <button class="addcartbutton">Add to cart</button>
+                                        
+                    </div>
+
+                    <div class="product-preview">
+
+                        <div class="product-img-row" >
+                            <img class="product-img" src="product/prod14.jpg">
+                            <div class="stock">In stock</div>
+                        </div>
+                        <div class="product-name">Product 14</div>
+                        <div class="product-price">14000₹</div>
+                        <button class="addcartbutton">Add to cart</button>
+                    </div>
+
+                    <div class="product-preview">
+
+                        <div class="product-img-row" >
+                            <img class="product-img" src="product/prod15.jpg">
+                            <div class="stock">In stock</div>
+                        </div>
+                        <div class="product-name">Product 15</div>
+                        <div class="product-price">15000₹</div>
+                        <button class="addcartbutton">Add to cart</button>
+                                        
+                    </div>
+
+                    <div class="product-preview">
+
+                        <div class="product-img-row" >
+                            <img class="product-img" src="product/prod16.jpg">
+                            <div class="stock">In stock</div>
+                        </div>
+                        <div class="product-name">Product 16</div>
+                        <div class="product-price">16000₹</div>
+                        <button class="addcartbutton">Add to cart</button>
+                                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/cartbox.js"></script>
+</body>
+</html>
