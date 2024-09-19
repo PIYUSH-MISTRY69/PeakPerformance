@@ -200,16 +200,123 @@ function gayab()
 }
 
 
-
-function buttonClickedFact()
+function colorchange1()
 {
-  const factorCap = document.querySelector('.button1');
-  factorCap.classList.add('button-clicked');
+    const button=document.getElementById('butt');
+    button.classList.add("color");
 }
 
-function buttonClickedCap()
+
+function colorchange2()
 {
-  const factorCap2 = document.querySelector('.button2');
-  factorCap2.classList.add('button-clicked');
+    const button=document.getElementById('butt1');
+    button.classList.add("color");
 }
 
+function colorchange3()
+{
+    const button=document.getElementById('butt2');
+    button.classList.add("color");
+}
+
+function colorchange4()
+{
+    const button=document.getElementById('butt3');
+    button.classList.add("color");
+}
+
+function colorchange5()
+{
+    const button=document.getElementById('butt4');
+    button.classList.add("color");
+}
+
+function colorchange6()
+{
+    const button=document.getElementById('butt5');
+    button.classList.add("color");
+}
+
+function colorchange7()
+{
+    const button=document.getElementById('butt6');
+    button.classList.add("color");
+}
+
+function colorchange8()
+{
+    const button=document.getElementById('butt7');
+    button.classList.add("color");
+}
+
+function colorchange9()
+{
+    const button=document.getElementById('butt8');
+    button.classList.add("color");
+}
+
+function colorchange10()
+{
+    const button=document.getElementById('butt9');
+    button.classList.add("color");
+}
+
+function colorchange11()
+{
+    const button=document.getElementById('butt10');
+    button.classList.add("color");
+}
+
+function colorchange12()
+{
+    const button=document.getElementById('butt11');
+    button.classList.add("color");
+}
+
+function colorchange13()
+{
+    const button=document.getElementById('butt12');
+    button.classList.add("color");
+}
+
+function colorchange14()
+{
+    const button=document.getElementById('butt13');
+    button.classList.add("color");
+}
+
+function colorchange15()
+{
+    const button=document.getElementById('butt14');
+    button.classList.add("color");
+}
+
+function colorchange16()
+{
+    const button=document.getElementById('butt15');
+    button.classList.add("color");
+}
+
+function colorchange17()
+{
+    const button=document.getElementById('butt16');
+    button.classList.add("color");
+}
+
+function colorchange18()
+{
+    const button=document.getElementById('butt17');
+    button.classList.add("color");
+}
+
+function colorchange19()
+{
+    const button=document.getElementById('butt18');
+    button.classList.add("color");
+}
+
+function colorchange20()
+{
+    const button=document.getElementById('butt19');
+    button.classList.add("color");
+}

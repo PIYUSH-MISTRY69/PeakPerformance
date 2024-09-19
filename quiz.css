@@ -215,3 +215,7 @@ body{
     width: 1000px;
 }
 
+.color{
+    background-color: grey;
+    color: black;
+}
