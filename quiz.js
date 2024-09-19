@@ -1,4 +1,7 @@
 
+
+
+
 let i=0
 function timer(seconds) {
     const timerElement = document.getElementById('four');
@@ -195,3 +198,18 @@ function gayab()
   const two=document.getElementById('two');
   two.classList.add("unseen");
 }
+
+
+
+function buttonClickedFact()
+{
+  const factorCap = document.querySelector('.button1');
+  factorCap.classList.add('button-clicked');
+}
+
+function buttonClickedCap()
+{
+  const factorCap2 = document.querySelector('.button2');
+  factorCap2.classList.add('button-clicked');
+}
+

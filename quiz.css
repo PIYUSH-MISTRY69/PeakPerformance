@@ -118,6 +118,11 @@ body{
     transform: scale(1.05);
 }
 
+.button-clicked{
+    background-color: gray;
+    color: white;
+     }
+
 #seven{
     height: 120px;
     width: 700px;
