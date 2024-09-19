@@ -324,3 +324,7 @@ input{
   .unseen{
     visibility: hidden;
   }
+
+  a{
+    color: white;
+  }
