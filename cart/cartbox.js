@@ -170,15 +170,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
   
   var discount = 0;
-  if (couponCode === 'PEAK5') {
+  if (couponCode === 'PEAK5hsywss') {
     discount = 0.05; 
-  } else if (couponCode === 'PEAK10') {
+  } else if (couponCode === 'PEAK10hfjd') {
     discount = 0.1; 
-  } else if (couponCode === 'PEAK15') {
+  } else if (couponCode === 'PEAK15ters') {
     discount = 0.15;  
-  } else if (couponCode === 'PEAK20') {
+  } else if (couponCode === 'PEAK20lsow') {
     discount = 0.2; 
-  } else if (couponCode === 'PEAK25') {
+  } else if (couponCode === 'PEAK25alos') {
     discount = 0.25;  
   }
 

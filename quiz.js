@@ -176,19 +176,19 @@ function display()
   }
   else if(cc>0 && cc<=30)
   {
-    display.innerText=`You earned ${cc} points\nUse 'PEAK10' to get 10% off on your next order`;
+    display.innerText=`You earned ${cc} points\nUse 'PEAK10hfjd' to get 10% off on your next order`;
   }
   else if(cc>30 && cc<=60)
   {
-    display.innerText=`You earned ${cc} points\nUse 'PEAK15' to get 15% off on your next order`;
+    display.innerText=`You earned ${cc} points\nUse 'PEAK15ters' to get 15% off on your next order`;
   }
   else if(cc>60 && cc<=90)
   {
-    display.innerText=`You earned ${cc} points\nUse 'PEAK20' to get 20% off on your next order`;
+    display.innerText=`You earned ${cc} points\nUse 'PEAK20lsow' to get 20% off on your next order`;
   }
   else
   {
-    display.innerText=`You earned ${cc} points\nUse 'PEAK25' to get 25% off on your next order`;
+    display.innerText=`You earned ${cc} points\nUse 'PEAK25alos' to get 25% off on your next order`;
   }
 }
 
