@@ -1,0 +1,326 @@
+body{
+    background-color: #052633;
+    margin: 0;
+    padding: 0;
+    color: white;    
+    font-family: Verdana, sans-serif;
+}
+
+#navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #052633;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+}
+
+i{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.aa{
+    color: white;
+    text-decoration: none;
+    float: left;
+    padding: 4px 16px;
+    border-radius: 45px;
+}
+
+
+input{
+    width: 300px;
+    height: 30px;
+    
+    border-radius: 10px 0 0 10px;
+
+}
+
+.in{
+    padding-left: 25px;
+}
+
+.in::placeholder
+{
+    
+    font-size: 15px;
+}
+
+.search{
+    height: 60px;
+    display: flex;
+    margin-top: 12px;
+    margin-right: 0;
+}
+
+.searchicon{
+    height: 37px;
+    width: 40px;
+    margin-left: 0;
+    padding-top: 0;
+    border-radius: 0 10px 10px 0;
+}
+
+.searchicon:hover{
+    box-shadow: 3px 3px 5px black;
+}
+
+#icon{
+    padding-bottom: 10px;
+    margin-top: 6px;
+}
+
+.imgg{
+    height: 45px;
+    
+}
+
+.logobar{
+    display: flex;
+    justify-content: center;
+    animation: animate 5s ease-in-out 0s infinite reverse;
+}
+
+.para{
+    font-size: 20px;
+    position: relative;
+    bottom: 5px;
+}
+
+.logobar1{
+    margin-top: 8px;
+   
+}
+
+.hoverr:hover{
+    background-color: #373837;
+    transform: scale(1.05);
+}
+
+.hoverr{
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out 0s ;
+
+}
+
+.in:hover{
+    box-shadow: 3px 5px 5px black;
+
+}
+
+@keyframes animate{
+    from{
+
+    }
+    to{
+        transform: scale(1.2);
+    }
+}
+
+/* */
+
+.menu{
+    background-color: #096082;
+    height: 90vh;
+    margin-top: 60px;
+    width: 0px;
+    visibility: hidden;
+    border-bottom-right-radius: 10px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+}
+
+#menuop{
+    width: auto;
+    height: 70vh;
+    background-color: #096082; 
+    margin-top: 10vh;
+}
+
+.menuops{
+    width: auto;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 7px;
+    transition: all 0s ease 0s;
+}
+
+
+.menuops:hover{
+    background-color: #052633;
+    transition: all 1.25s ease 0s;
+}
+
+#aaa{
+    color: white;
+    text-decoration: none;
+}
+
+.width{
+    visibility: visible;
+    width: 400px;
+    z-index: 1;
+}
+
+
+
+.conclogo{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-left: 378.9px;
+}
+
+.mySlides {display: none;}
+
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 18px;
+  padding: 8px 12px 10px 10px;
+  position: absolute;
+  bottom: 40px;
+  width: 20%;
+  text-align: center;
+  margin-left: 500px;
+  margin-right: 380px;
+  background-color: #096082;
+  border-radius: 20px;
+}
+
+
+.numbertext {
+  color: yellow;
+  font-size: 12px;
+  padding: 10px 14px ;
+  position: absolute;
+  top: 0;
+  background-color: black;
+  border-radius: 25px;
+  margin-top: 3px;
+  margin-left: 2px;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  position: relative;
+  bottom: 75px;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.ok{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+#name{
+    height: auto;
+    width: 160px;
+}
+
+#about{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding-top: 25px;
+    text-decoration: underline;
+    color: yellow;
+}
+
+#about1{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+#about2{
+    height: 300px;
+    width: 631.3px;
+    display: grid;
+    place-items: center;
+   
+}
+
+#about3{
+    height: 300px;
+    width: 631.5px;
+  
+}
+
+.aA{
+    border: 10px solid black;
+    border-radius: 50%;
+}
+
+#about4{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    text-decoration: underline;
+    color: yellow;
+}
+
+#myUL {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #myUL li a {
+    border: 1px solid #ddd; /* Add a border to all links */
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #096082; /* Grey background color */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    font-size: 18px; /* Increase the font-size */
+    color: white; /* Add a black text color */
+    display: block; /* Make it into a block element to fill the whole list */
+  }
+  
+  #myUL li a:hover:not(.header) {
+    background-color: #eee;
+    color: black; /* Add a hover effect to all links, except for headers */
+  }
+
+  .seen{
+    visibility: visible;
+  }
+
+  .unseen{
+    visibility: hidden;
+  }
