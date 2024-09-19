@@ -180,16 +180,6 @@ document.addEventListener('DOMContentLoaded', function() {
     discount = 0.2; 
   } else if (couponCode === 'PEAK25') {
     discount = 0.25;  
-  } else if (couponCode === 'PEAK30') {
-    discount = 0.3; 
-  } else if (couponCode === 'PEAK35') {
-    discount = 0.35; 
-  } else if (couponCode === 'PEAK40') {
-    discount = 0.4; 
-  } else if (couponCode === 'PEAK45') {
-    discount = 0.45; 
-  } else if (couponCode === 'PEAK50') {
-    discount = 0.5; 
   }
 
   
