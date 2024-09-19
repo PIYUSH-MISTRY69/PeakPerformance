@@ -15,10 +15,9 @@
 }
 
 body {
-  background: #004d4d;
+  background: #052633;
   display: grid;
   place-items: center;
-  height: 80vh;
 }
 
 h1 {
@@ -34,6 +33,7 @@ h1 {
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25);
   display: grid;
   gap: 1rem;
+  margin-top: 20px;
 }
 
 .calculator {
@@ -145,4 +145,27 @@ h1 {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
    /* Initially hidden */
   visibility: visible; /* Initially hidden */
+}
+
+#advice{
+  height: 300px;
+  width: 700px;
+  background-color: #096082;
+  margin-top: 60px;
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+#end{
+  height: 100px;
+  width: 100px;
+}
+
+.unseen{
+  visibility: hidden;
 }
