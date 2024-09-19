@@ -166,7 +166,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
      
   var couponCodeInput = document.getElementById('coupon-code');
-  var couponCode = couponCodeInput.value.toUpperCase();
+  var couponCode = couponCodeInput.value;
 
   
   var discount = 0;
