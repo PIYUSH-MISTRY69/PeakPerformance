@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #052633;
+}
+
+#nav{
+    height: 60px;
+    width: 100%;
+    background-color: #096082;
+    display: flex;
+}
+
+a{
+    color: white;
+}
+
+i:hover{
+     transform: scale(1.1);
+}
+
+#nal{
+    height: 60px;
+    width: 250px;
+    display: flex;
+    margin-left: 450px;
+}
+
+#photo{
+    height: 60px;
+    width: 60px;
+}
+
+#name{
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: 1.75rem;
+}
+
+
+#home{
+    height: 60px;
+    width: 60px;
+    margin-left: 25px;
+    display: grid;
+    place-items: center;
+    font-size: 1.5rem;
+}
+
+#menu{
+    height: 300px;
+    width: 250px;
+    background-color: #096082;
+    position: absolute;
+    right: 0;
+    top: 60px;
+    border-top: 2px solid black;
+    z-index: 1;
+}
+
+#menuicon{
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 400px;
+}
+
+.unseen{
+    visibility: hidden;
+}
+
+.seen{
+    visibility: visible;
+}
+
+#menulist{
+    height: 71px;
+    width: 246px;
+    display: grid;
+    place-items: center;
+    font-size: 1.3rem;
+    color: white;
+    border: 2px solid black;
+}
+
+#ex1{
+    margin-top: 150px;
+}
+
+.exs{
+    height: 300px;
+    width: 85%;
+    background-color: #096082;
+    position: absolute;
+    margin-left: 100px;
+    border-radius: 10px;
+    display: flex;
+}
+
+#vid{
+    height: 260px;
+    width: 40%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#info{
+    height: 260px;
+    width: 52%;
+    background-color: #052633;
+    margin-top: 20px;
+    margin-left: 30px;
+    display: grid;
+    place-items: center;
+    font-size: 1.3rem;
+    color: white;
+    border-radius: 5px;
+}
+
+p{
+    font-size: 1.15rem;
+}
+
+h3{
+    margin-bottom: 0px;
+    color: yellow;
+}
+
+#ex2{
+    margin-top: 520px;
+}
+
+#ex3{
+    margin-top: 890px;
+}
+
+#ex4{
+    margin-top: 1260px;
+}
+
+#ex5{
+    margin-top: 1630px;
+}
+
+#end{
+    margin-top: 1930px;
+    height: 100px;
+    width: 100%;
+}
