@@ -21,8 +21,8 @@ body{
     place-items: center;
     color: white;
     animation: animate 120s ease-in-out 1s 1 normal forwards;
-    top: 300px;
-    right: 120px;
+    top: 330px;
+    right: 100px;
     position: fixed;
 }
 

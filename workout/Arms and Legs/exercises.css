@@ -87,7 +87,7 @@ i:hover{
 }
 
 #ex1{
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 .exs{
@@ -130,23 +130,57 @@ h3{
 }
 
 #ex2{
-    margin-top: 520px;
+    margin-top: 420px;
 }
 
 #ex3{
-    margin-top: 890px;
+    margin-top: 790px;
 }
 
 #ex4{
-    margin-top: 1260px;
+    margin-top: 1160px;
 }
 
 #ex5{
-    margin-top: 1630px;
+    margin-top: 1530px;
 }
 
 #end{
-    margin-top: 1930px;
+    margin-top: 1830px;
     height: 100px;
     width: 100%;
 }
+
+
+.nutrient-title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    color: white;
+    font-size: 45px;
+    font-family: Bebas Neue;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding-right: 900px;
+    padding-left: 350px;
+    margin-left: 0;
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+    html {
+      zoom: 150%;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .nutrient-title {
+      zoom: 150%;
+    }
+  }
+ 
