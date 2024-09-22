@@ -322,6 +322,7 @@ input{
   #myUL li a:hover:not(.header) {
     background-color: #eee;
     color: black; /* Add a hover effect to all links, except for headers */
+    transition: all 0.3s;
   }
 
   .seen{

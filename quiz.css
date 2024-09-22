@@ -96,6 +96,7 @@ body{
     height: 100px;
     width: 350px;
     background-color: #2abf52;
+    font-family: kanit;
 }
 
 .button2{
@@ -108,14 +109,17 @@ body{
     height: 100px;
     width: 350px;
     background-color: #b81212;
+    font-family: kanit;
 }
 
 .button1:hover{
-    transform: scale(1.05);
+    font-size: 2.3rem;
+    opacity: 0.6;
 }
 
 .button2:hover{
-    transform: scale(1.05);
+    font-size: 2.3rem;
+    opacity: 0.6;
 }
 
 .button-clicked{
