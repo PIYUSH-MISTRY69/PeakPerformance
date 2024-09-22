@@ -338,3 +338,8 @@ input{
   }
 
 
+  #p1:hover{
+    color: lightblue;
+    transition: all 0.3s;
+  }
+
