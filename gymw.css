@@ -16,6 +16,9 @@ body{
     width: 100%;
     text-align: center;
     color: white;
+    font-family: bebas neue;
+    font-size: 30px;
+    margin-top: 0px;
 }
 
 #section{
@@ -30,6 +33,7 @@ body{
     width: 200px;
     background-color: antiquewhite;
     transition: all 0.3s ease 0s;
+    box-shadow :0px 10px 10px  rgb(0, 0, 0,0.6) ;
 }
 
 #two{
@@ -41,6 +45,9 @@ body{
     display: grid;
     place-items: center;
     font-size: larger;
+    font-family: bebas neue;
+    font-size: 30px;
+    
 }
 
 #one{
@@ -57,6 +64,7 @@ img{
 
 #main1:hover{
     transform: scale(1.1);
+    box-shadow :0px 20px 20px 5px rgb(0, 0, 0,0.6) ;
 }
 
 #section:hover > :not(:hover){
