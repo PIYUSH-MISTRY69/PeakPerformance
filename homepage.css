@@ -343,3 +343,14 @@ input{
     transition: all 0.3s;
   }
 
+
+  #about3{
+    background-color: #096082;
+    border-radius: 10px;
+    margin-right: 50px;
+  }
+
+
+  h5{
+    text-align: center;
+  }
