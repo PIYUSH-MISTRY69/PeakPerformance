@@ -22,7 +22,8 @@
     <div style="width: 100%;display: flex;justify-content: flex-start;align-items: center;">
     <a href="/homepage.html"><div style="height: 30px;width: 30px;background-color: #096082;margin-left: 20px;display: grid;place-items: center;border-radius: 4px;cursor: pointer;margin-top: 20px;margin-bottom: 4px;"><i class="fa-solid fa-house" style="color: white;font-size: 1.25rem;"></i></div></a>
     </div>
-    <div class="container" >
+    <div id="jodi">
+    <div class="container" id="con">
       <h1>BMI Calculator</h1>
 
       <form class="calculator">
@@ -37,8 +38,8 @@
         </div>
 
         <div>
-          <button type="reset" id="resset">Reset</button>
-          <button type="submit" id="subbut">Submit</button>
+          <button type="reset" id="resset" onclick="reshift()">Reset</button>
+          <button type="submit" id="subbut" onclick="shift()">Submit</button>
         </div>
       </form>
 
@@ -70,11 +71,10 @@
         </div>
       </section>
     </div>
-     <div id="advice" class="unseen">
+    <div id="advice" class="unseen size">
 
-     </div>
-     <div id="end">
-
-     </div>
+    </div>
+    </div>
+     
   </body>
 </html>

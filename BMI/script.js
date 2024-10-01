@@ -40,7 +40,7 @@ function onFormSubmit(e) {
 
   bmiText.textContent = bmi.toFixed(2);
   bmiText.className = desc;
-  descText.innerHTML = `You are <strong>${desc}</strong><br><b>Scroll down</b>`;
+  descText.innerHTML = `You are <strong>${desc}</strong>`;
   bmiAdviceText.textContent = advice;
   
   // Show the BMI advice section
@@ -84,6 +84,7 @@ subbut.addEventListener("click",()=>
   if(i===0)
   {
     advice1.classList.remove("unseen");
+    advice1.classList.add("resize");
   }
 })
 resset.addEventListener("click",()=>
@@ -91,6 +92,7 @@ resset.addEventListener("click",()=>
     if(j===0)
     {
       advice1.classList.add("unseen");
+      advice1.classList.remove('resize')
     }
   })
 
@@ -107,4 +109,23 @@ function gettextadvice(bmi)
     advice1.innerHTML=`<b>You are classified as obese, which can increase your risk for various health conditions. It’s crucial to adopt a comprehensive approach to weight management, including a balanced diet and regular physical activity. Seeking advice from a healthcare provider or a nutritionist is highly recommended to develop a personalized plan to improve your health.</b>`;
   }
 }
+let z=0;
+function shift()
+{
+  const con=document.getElementById('con');
+  if(z==0)
+  {
+    z=1;
+    con.classList.add("shift");
+  }
+}
 
+function reshift()
+{
+  const con=document.getElementById('con');
+  if(z==1)
+  {
+    z=0;
+    con.classList.remove("shift");
+  }
+}
