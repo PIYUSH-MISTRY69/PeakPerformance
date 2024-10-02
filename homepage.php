@@ -1,3 +1,20 @@
+<?php
+include "session.php";
+//function isLoggedIn(){
+   // return isset($_SESSION['username']);
+//}
+//session_start();
+// Check if the user is logged in
+//if (isLoggedIn()) {
+    // Display the username if logged in
+   // echo "<h2>HI, " . $_SESSION['username'] . "</h2>";
+   // var_dump ($_SESSION);
+//}// else {
+    // Display a message indicating the user is not logged in
+   // echo "<h2>You are not logged in.</h2>";
+//}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,7 +41,11 @@
             <a id="menu1" class="aa"><i class="fa-solid fa-bars" style="margin-left: 15px;margin-right: 15px;" ></i></a>
             </div>
             <div id="name">
-                <h3 style="text-align: center;">𝙃𝙄,𝙁𝙍𝙄𝙀𝙉𝘿!</h3>
+                <?php
+                session_start();
+                echo "<h2>HI, " . $_SESSION['username'] . "</h2>";
+
+                ?>
             </div>
             <div class="logobar">
                 <div class="logobar1"><img src=logo3.png class="imgg"></div>
@@ -49,7 +70,10 @@
             </div>
             <div class="hoverr">
             <a href="/cart/CART.html" class="aa"><i class="fa-solid fa-cart-shopping" style="margin-right: 15px;margin-left: 15px;"></i></a>
-            </div>    
+            </div> 
+            <div id="logout">
+            <form action="one.html">
+            <button onclick="logout()" id="exit">Log out</button></div>   
         </div>
     </header>
             <div> 
@@ -142,3 +166,4 @@
     <script src="script2.js"></script>
 </body>
 </html>
+
