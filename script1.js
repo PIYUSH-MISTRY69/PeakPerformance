@@ -55,6 +55,54 @@ inp1.addEventListener("input", () =>
     }
 );
 
+function setcookie()
+{
+    var u=document.getElementById('inputname1').value;
+    var p=document.getElementById('myinput').value;
+    document.cookie="myusername="+u+";path=http://localhost/one.html/";
+    document.cookie="mypass="+p+";path=http://localhost/one.html/";
+}
+
+function getcookiedata()
+{
+    console.log(document.cookie);
+    var user=getcookie('myusername');
+    var pass=getcookie('mypass');
+    var user1=getcookie('myusername1');
+    var pass1=getcookie('mypass1');
+
+    document.getElementById('inputname1').value=user;
+    document.getElementById('myinput').value=pass;
+    document.getElementById('inputname2').value=user1;
+    document.getElementById('myinputt').value=pass1;
+}
+
+function getcookie(cname)
+{
+    var name=cname+"=";
+    var decodedCookie= decodeURIComponent(document.cookie);
+    var ca=decodedCookie.split(';');
+    for(var i=0;i<ca.length;i++)
+    {
+        var c=ca[i];
+        while(c.charAt(0)==' '){
+            c=c.substring(1);
+        }
+        if(c.indexOf(name)==0){
+            return c.substring(name.length,c.length);
+        }
+    }
+    return "";
+}
+
+function setcookie1()
+{
+    var u1=document.getElementById('inputname2').value;
+    var p1=document.getElementById('myinputt').value;
+    document.cookie="myusername1="+u1+";path=http://localhost/one.html/";
+    document.cookie="mypass1="+p1+";path=http://localhost/one.html/";
+}
+
 
 
 
