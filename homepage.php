@@ -55,13 +55,13 @@ include "session.php";
                 <div>
                     <input class="in" type="text" placeholder="Search" id="myInput" onkeyup="func()">
                     <ul id="myUL" class="unseen">
-                        <li><a href="/workout/chest/chest.html">Chest</a></li>
-                        <li><a href="back.html">Back</a></li>
-                        <li><a href="/workout/Arms and Legs/Legs.html">Legs</a></li>
-                        <li><a href="/workout/shoulder/shoulder.html">Shoulders</a></li>
-                        <li><a href="/workout/Arms and Legs/Arms.html">Arms</a></li>
-                        <li><a href="cart/CART.html">Protein</a></li>
-                        <li><a href="cart/CART.html">Creatine</a></li>
+                        <li><a href="/PeakPerformance/workout/chest/chest.html">Chest</a></li>
+                        <li><a href="/PeakPerformance/back.html">Back</a></li>
+                        <li><a href="/PeakPerformance/workout/Arms and Legs/Legs.html">Legs</a></li>
+                        <li><a href="/PeakPerformance/workout/shoulder/shoulder.html">Shoulders</a></li>
+                        <li><a href="/PeakPerformance/workout/Arms and Legs/Arms.html">Arms</a></li>
+                        <li><a href="/PeakPerformance/cart/CART.html">Protein</a></li>
+                        <li><a href="/PeakPerformance/cart/CART.html">Creatine</a></li>
                       </ul>      
                 </div>
                 <div>
@@ -69,23 +69,24 @@ include "session.php";
                 </div>
             </div>
             <div class="hoverr">
-            <a href="/cart/CART.html" class="aa"><i class="fa-solid fa-cart-shopping" style="margin-right: 15px;margin-left: 15px;"></i></a>
+            <a href="/PeakPerformance/cart/CART.html" class="aa"><i class="fa-solid fa-cart-shopping" style="margin-right: 15px;margin-left: 15px;"></i></a>
             </div> 
             <div id="logout">
-            <form action="one.html">
-            <button onclick="logout()" id="exit">Log out</button></div>   
+                <form action="one.html">
+                <button onclick="logout()" id="exit">Log out</button>
+            </div>   
         </div>
     </header>
             <div> 
                 <div class="menu">
                     <div id="menuop">
-                        <a href="homepage.html" id="aaa"><div class="menuops"><h3>𝙃𝙊𝙈𝙀</h3></div></a>
-                        <a href="gymw.html" id="aaa"><div class="menuops"><h3>𝙂𝙔𝙈 𝙒𝙊𝙍𝙆𝙊𝙐𝙏𝙎</h3></div></a>
-                        <a href="/Home workout/index.html" id="aaa"><div class="menuops"><h3>𝙃𝙊𝙈𝙀 𝙒𝙊𝙍𝙆𝙊𝙐𝙏𝙎</h3></div></a>
-                        <a href="/diet/diet.html" id="aaa"><div class="menuops"><h3>𝘿𝙄𝙀𝙏 𝙏𝙄𝙋𝙎</h3></div></a>
-                        <a href="/cart/CART.html" id="aaa"><div class="menuops"><h3>𝙎𝙐𝙋𝙋𝙇𝙀𝙈𝙀𝙉𝙏𝙎</h3></div></a>
-                        <a href="/BMI/BMI.html" id="aaa"><div class="menuops"><h3>𝘽𝙈𝙄 𝘾𝘼𝙇𝘾𝙐𝙇𝘼𝙏𝙊𝙍</h3></div></a>
-                        <a href="quizins.html" id="aaa"><div class="menuops"><h3>𝙏𝙍𝙔 𝙊𝙐𝙏 𝙌𝙐𝙄𝙕</h3></div></a>
+                        <a href="/PeakPerformance/homepage.php" id="aaa"><div class="menuops"><h3>𝙃𝙊𝙈𝙀</h3></div></a>
+                        <a href="/PeakPerformance/gymw.html" id="aaa"><div class="menuops"><h3>𝙂𝙔𝙈 𝙒𝙊𝙍𝙆𝙊𝙐𝙏𝙎</h3></div></a>
+                        <a href="/PeakPerformance/Home workout/index.html" id="aaa"><div class="menuops"><h3>𝙃𝙊𝙈𝙀 𝙒𝙊𝙍𝙆𝙊𝙐𝙏𝙎</h3></div></a>
+                        <a href="/PeakPerformance/diet/diet.html" id="aaa"><div class="menuops"><h3>𝘿𝙄𝙀𝙏 𝙏𝙄𝙋𝙎</h3></div></a>
+                        <a href="/PeakPerformance/cart/CART.html" id="aaa"><div class="menuops"><h3>𝙎𝙐𝙋𝙋𝙇𝙀𝙈𝙀𝙉𝙏𝙎</h3></div></a>
+                        <a href="/PeakPerformance/BMI/BMI.html" id="aaa"><div class="menuops"><h3>𝘽𝙈𝙄 𝘾𝘼𝙇𝘾𝙐𝙇𝘼𝙏𝙊𝙍</h3></div></a>
+                        <a href="/PeakPerformance/quizins.html" id="aaa"><div class="menuops"><h3>𝙏𝙍𝙔 𝙊𝙐𝙏 𝙌𝙐𝙄𝙕</h3></div></a>
                     </div>
                 </div>
                 <div class="container" style="position: absolute; top: 60px;">

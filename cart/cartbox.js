@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', function() {
                   <div class='prod-detail'>
                     <div class='prod-title' style="font-size:25px" >${title}</div>
                     <div style="display:flex;height : 30px;">
-                    <div class='cart-price' style="font-size:20px;">${price}₹</div>                      
+                    <div class='cart-price' style="font-size:20px;">${price}</div>                      
                     <input type='number' value='1' class='cart-quantity'> 
                     </div>                    
                   </div>
@@ -191,21 +191,16 @@ document.addEventListener('DOMContentLoaded', function() {
 }
     
 function saveCartItems(){
-  console.log('saved')
   var cartContent = document.getElementsByClassName('cart_content')[0];
-  console.log(cartContent)
   var cartBoxes = cartContent.getElementsByClassName('cartbox');
-  console.log(cartBoxes)
-  cartItems = [];
+  var cartItems = [];
+  
   for (var i=0; i<cartBoxes.length; i++){
-      console.log('suii')
-      cartBox = cartBoxes[i];
-      var titleElement = cartBox.getElementsByClassName('product-title')[0];
-      var priceElement = cart.getElementsByClassName('cart-price')[0];
+      var cartBox = cartBoxes[i];
+      var titleElement = cartBox.getElementsByClassName('prod-title')[0]; 
+      var priceElement = cartBox.getElementsByClassName('cart-price')[0]; 
       var quantityElement = cartBox.getElementsByClassName('cart-quantity')[0];
       var productImg = cartBox.getElementsByClassName('cart-prod-img')[0].src;
-
-
 
       var item = {
           title: titleElement.innerText,
@@ -214,11 +209,11 @@ function saveCartItems(){
           productImg: productImg,
       };
       cartItems.push(item);
-      console.log(cartItems)
   }
   localStorage.setItem('cartItems', JSON.stringify(cartItems));
-  console.log(localStorage.getItem('cartItems'))
 }
+
+
 function loadCartItems() {
   var cartItems = localStorage.getItem('cartItems');
   if(cartItems != null) {

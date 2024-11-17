@@ -118,11 +118,11 @@ img{
     width: 30px;
     margin-top: 3px;
     margin-left: 20px;
-    position: fixed;
+    
 }
 
 p{
-    margin-left: 220px;
+    margin-left: 170px;
 }
 
 h4{
@@ -136,3 +136,9 @@ h4{
     margin-top: 7px;
 }
 
+
+@media only screen and (min-width: 1200px) {
+    html{
+        zoom: 150%;
+    }
+ }

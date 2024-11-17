@@ -4,6 +4,14 @@ body{
     background-color: #052633;
 }
 
+
+@media only screen and (min-width: 1200px) {
+    html{
+        zoom: 150%;
+    }
+ }
+ 
+
 #nav{
     height: 60px;
     width: 100%;
@@ -24,7 +32,7 @@ i:hover{
     height: 60px;
     width: 250px;
     display: flex;
-    margin-left: 450px;
+    margin-left: 410px;
 }
 
 #photo{
@@ -43,7 +51,7 @@ i:hover{
 #home{
     height: 60px;
     width: 60px;
-    margin-left: 25px;
+    margin-left: 15px;
     display: grid;
     place-items: center;
     font-size: 1.5rem;
@@ -65,7 +73,7 @@ i:hover{
     place-items: center;
     color: white;
     font-size: 1.5rem;
-    margin-left: 400px;
+    margin-left: 435px;
 }
 
 .unseen{
@@ -172,6 +180,4 @@ h3{
     font-weight: bold;
     letter-spacing: 2px; 
 }
-
-
 

@@ -16,11 +16,14 @@ if ($conn->connect_error) {
 // Retrieve form data
 $username = $_POST['username'];
 $password = $_POST['password'];
+echo $username;
+echo $password;
 
 // Check if username already exists
 $sql = "SELECT * FROM info WHERE username = '$username'";
 $result = $conn->query($sql);
 
+echo $result->num_rows;
 if ($result->num_rows > 0) {
     // Username already exists, display error message
     echo "Username already exists.";

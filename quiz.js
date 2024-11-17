@@ -172,23 +172,23 @@ function display()
   display.classList.add("seen");
   if(cc<=0)
   {
-    display.innerText=`You earned 0 points\nHard luck`;
+    display.innerText=`You earned 0 points out of 100\nHard luck`;
   }
   else if(cc>0 && cc<=30)
   {
-    display.innerText=`You earned ${cc} points\nUse 'PEAK10hfjd' to get 10% off on your next order`;
+    display.innerText=`You earned ${cc} points out of 100\nUse 'PEAK10hfjd' to get 10% off on your next order`;
   }
   else if(cc>30 && cc<=60)
   {
-    display.innerText=`You earned ${cc} points\nUse 'PEAK15ters' to get 15% off on your next order`;
+    display.innerText=`You earned ${cc} points out of 100\nUse 'PEAK15ters' to get 15% off on your next order`;
   }
   else if(cc>60 && cc<=90)
   {
-    display.innerText=`You earned ${cc} points\nUse 'PEAK20lsow' to get 20% off on your next order`;
+    display.innerText=`You earned ${cc} points out 0f 100\nUse 'PEAK20lsow' to get 20% off on your next order`;
   }
   else
   {
-    display.innerText=`You earned ${cc} points\nUse 'PEAK25alos' to get 25% off on your next order`;
+    display.innerText=`You earned ${cc} points out of 100\nUse 'PEAK25alos' to get 25% off on your next order`;
   }
 }
 
